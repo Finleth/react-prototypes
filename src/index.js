@@ -12,7 +12,6 @@ function luckyNumber(){
     return Math.floor(Math.random()*1001);
 }
 
-
 ReactDOM.render(
     <Greeting person={user}/>,
     document.getElementById('root')
